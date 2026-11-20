@@ -1,0 +1,246 @@
+[
+  {
+    "company_name": "微软",
+    "poi_name": "微软(中国)有限公司(广州分公司)",
+    "address": "天河路383号太古汇1座28层(石牌桥地铁站出入口旁)",
+    "district": "天河区",
+    "lng": 113.333314,
+    "lat": 23.133885
+  },
+  {
+    "company_name": "思爱普",
+    "poi_name": "嘉韵美人悦云澜SAP",
+    "address": "环市东路370-372号(淘金地铁站A口步行110米)",
+    "district": "越秀区",
+    "lng": 113.287752,
+    "lat": 23.135542
+  },
+  {
+    "company_name": "思科",
+    "poi_name": "中国华西企业有限公司(广州分公司)",
+    "address": "思科智慧谷A3座西塔1005",
+    "district": "番禺区",
+    "lng": 113.412565,
+    "lat": 23.030003
+  },
+  {
+    "company_name": "英伟达",
+    "poi_name": null,
+    "address": null,
+    "district": null,
+    "lng": null,
+    "lat": null,
+    "status": "NOT_FOUND"
+  },
+  {
+    "company_name": "高通",
+    "poi_name": "广州高通影像技术有限公司",
+    "address": "天河路33号大院24号新华楼首层",
+    "district": "越秀区",
+    "lng": 113.311752,
+    "lat": 23.136081
+  },
+  {
+    "company_name": "IBM",
+    "poi_name": "西门子(中国)有限公司广州分公司",
+    "address": "天河路208号粤海天河城大厦8-10层",
+    "district": "天河区",
+    "lng": 113.323271,
+    "lat": 23.132696
+  },
+  {
+    "company_name": "甲骨文",
+    "poi_name": "甲骨文(中国)软件系统有限公司广州分公司",
+    "address": "华夏路8号合景国际金融广场18层",
+    "district": "天河区",
+    "lng": 113.321769,
+    "lat": 23.116442
+  },
+  {
+    "company_name": "博世",
+    "poi_name": "广州博世体育用品有限公司",
+    "address": "广园中路171号联鸣商贸中心F1层",
+    "district": "白云区",
+    "lng": 113.266813,
+    "lat": 23.159346
+  },
+  {
+    "company_name": "西门子",
+    "poi_name": "西门子(中国)有限公司广州分公司",
+    "address": "天河路208号粤海天河城大厦8-10层",
+    "district": "天河区",
+    "lng": 113.323271,
+    "lat": 23.132696
+  },
+  {
+    "company_name": "ABB",
+    "poi_name": "ABB(中国)有限公司广州分公司",
+    "address": "珠江西路15号珠江城F29层",
+    "district": "天河区",
+    "lng": 113.323154,
+    "lat": 23.124346
+  },
+  {
+    "company_name": "霍尼韦尔",
+    "poi_name": "霍尼韦尔照明Honeywell白云店",
+    "address": "白云大道北880号安华汇北馆4楼",
+    "district": "白云区",
+    "lng": 113.296949,
+    "lat": 23.216939
+  },
+  {
+    "company_name": "艾默生",
+    "poi_name": "艾默生过程控制有限公司(广州)分公司",
+    "address": "珠江东路32号利通广场B2层",
+    "district": "天河区",
+    "lng": 113.325721,
+    "lat": 23.125867
+  },
+  {
+    "company_name": "施耐德电气",
+    "poi_name": "施耐德电气(中国)投资有限公司(广州分公司)",
+    "address": "金穗路62号侨鑫国际F20层",
+    "district": "天河区",
+    "lng": 113.321944,
+    "lat": 23.122971
+  },
+  {
+    "company_name": "罗克韦尔自动化",
+    "poi_name": "广州航海学院(黄埔校区)-罗克韦尔自动化实验室",
+    "address": "大沙东路与石化南一街交叉口东南360米",
+    "district": "黄埔区",
+    "lng": 113.476416,
+    "lat": 23.101
+  },
+  {
+    "company_name": "是德科技",
+    "poi_name": null,
+    "address": null,
+    "district": null,
+    "lng": null,
+    "lat": null,
+    "status": "NOT_FOUND"
+  },
+  {
+    "company_name": "英飞凌",
+    "poi_name": null,
+    "address": null,
+    "district": null,
+    "lng": null,
+    "lat": null,
+    "status": "NOT_FOUND"
+  },
+  {
+    "company_name": "恩智浦",
+    "poi_name": "广州信实翻译服务有限公司",
+    "address": "华穗路406号之二保利克洛维·中景大厦A座34层33A23",
+    "district": "天河区",
+    "lng": 113.319845,
+    "lat": 23.126998
+  },
+  {
+    "company_name": "意法半导体",
+    "poi_name": null,
+    "address": null,
+    "district": null,
+    "lng": null,
+    "lat": null,
+    "status": "NOT_FOUND"
+  },
+  {
+    "company_name": "德州仪器",
+    "poi_name": "Texas美式烤肉·烤肋排(萝岗万达店)",
+    "address": "加庄大街与石化路交叉口西北60米",
+    "district": "黄埔区",
+    "lng": 113.460375,
+    "lat": 23.145725
+  },
+  {
+    "company_name": "赛默飞",
+    "poi_name": "赛默飞世尔(广州)生物科技有限公司",
+    "address": "九龙镇康兆二路77号B3栋1-5层、B4栋1-4层",
+    "district": "黄埔区",
+    "lng": 113.482036,
+    "lat": 23.379789
+  },
+  {
+    "company_name": "丹纳赫",
+    "poi_name": "Danaher(丹纳赫生命科学粤港澳大湾区总部)",
+    "address": "广州国际生物岛星岛环北路1号B2栋5层501-502单元",
+    "district": "海珠区",
+    "lng": 113.383324,
+    "lat": 23.070805
+  },
+  {
+    "company_name": "飞利浦",
+    "poi_name": "飞利浦中国投资有限公司",
+    "address": "聚新街31号小米大厦F2层",
+    "district": "海珠区",
+    "lng": 113.345425,
+    "lat": 23.102825
+  },
+  {
+    "company_name": "罗氏",
+    "poi_name": "罗氏服务中心",
+    "address": "环市东路与青龙坊一横路交叉口北60米",
+    "district": "越秀区",
+    "lng": 113.291372,
+    "lat": 23.135756
+  },
+  {
+    "company_name": "汇丰",
+    "poi_name": "汇丰银行(广州国际金融中心支行)",
+    "address": "珠江西路5号50楼第5005号B单元、第5006房、第5001房、第5002房",
+    "district": "天河区",
+    "lng": 113.32276,
+    "lat": 23.118274
+  },
+  {
+    "company_name": "渣打",
+    "poi_name": "渣打柠檬茶",
+    "address": "江南横岗路与南里路交叉口东南20米",
+    "district": "番禺区",
+    "lng": 113.372633,
+    "lat": 22.991897
+  },
+  {
+    "company_name": "埃森哲",
+    "poi_name": "埃森哲",
+    "address": "芳园路72号铭丰广场(磨碟沙地铁站H口步行230米)",
+    "district": "海珠区",
+    "lng": 113.344325,
+    "lat": 23.102625
+  },
+  {
+    "company_name": "德勤",
+    "poi_name": "德勤(广州)财务咨询有限公司",
+    "address": "华庭路4号富力天河商务大厦",
+    "district": "天河区",
+    "lng": 113.329775,
+    "lat": 23.144775
+  },
+  {
+    "company_name": "安永",
+    "poi_name": "广州市安永实业有限公司",
+    "address": "福中路33号",
+    "district": "增城区",
+    "lng": 113.629621,
+    "lat": 23.33458
+  },
+  {
+    "company_name": "毕马威",
+    "poi_name": "毕马威企业咨询(中国)有限公司广州分公司",
+    "address": "珠江东路6号广州周大福金融中心F21层",
+    "district": "天河区",
+    "lng": 113.326131,
+    "lat": 23.117788
+  },
+  {
+    "company_name": "普华永道",
+    "poi_name": "普华永道中心",
+    "address": "珠江新城珠江西路10号",
+    "district": "天河区",
+    "lng": 113.323368,
+    "lat": 23.120961
+  }
+]

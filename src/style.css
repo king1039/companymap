@@ -1,0 +1,366 @@
+:root {
+  font-family: 'Segoe UI', sans-serif;
+  color: #202a35;
+  background: #f5f6f7;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+
+  --ink: #202a35;
+  --muted: #89939d;
+  --accent: #e85d45;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  min-width: 360px;
+  height: 100%;
+  margin: 0;
+}
+
+button {
+  font: inherit;
+}
+
+.company-map {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  min-height: 480px;
+  overflow: hidden;
+  background: #f5f6f7;
+}
+
+.company-panel {
+  z-index: 1;
+  display: flex;
+  flex: 0 0 300px;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: 8px 0 28px rgb(34 47 62 / 8%);
+}
+
+.panel-header {
+  padding: 34px 26px 23px;
+  border-bottom: 1px solid #eef0f2;
+}
+
+.eyebrow {
+  margin: 0 0 9px;
+  color: var(--accent);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.19em;
+}
+
+.panel-header h1 {
+  margin: 0;
+  color: var(--ink);
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -0.045em;
+}
+
+.company-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 9px;
+  margin-top: 17px;
+}
+
+.company-stats__item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px 11px;
+  border-radius: 7px;
+  background: #f6f7f8;
+}
+
+.company-stats__item span {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.company-stats__item strong {
+  color: var(--ink);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.company-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+  padding: 15px 12px;
+  overflow-y: auto;
+  list-style: none;
+}
+
+.company-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 11px;
+  padding: 15px 13px;
+  border: 1px solid transparent;
+  border-radius: 9px;
+  background: transparent;
+  color: inherit;
+  transition:
+    background 150ms ease,
+    border-color 150ms ease,
+    transform 150ms ease;
+}
+
+.company-card:hover {
+  background: #f8f9fa;
+}
+
+.company-card:active {
+  transform: scale(0.99);
+}
+
+.company-card__main {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  gap: 13px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+
+.company-card__main:focus-visible {
+  border-radius: 4px;
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.company-card--active {
+  border-color: #f4d8d2;
+  background: #fff7f5;
+}
+
+.company-card--active:hover {
+  background: #fff7f5;
+}
+
+.company-card__marker {
+  position: relative;
+  flex: 0 0 10px;
+  width: 10px;
+  height: 10px;
+  margin-top: 5px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: #aab2ba;
+  box-shadow: 0 0 0 1px #aab2ba;
+}
+
+.company-card--active .company-card__marker {
+  background: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent), 0 0 0 4px rgb(232 93 69 / 12%);
+}
+
+.company-card__content {
+  display: flex;
+  min-width: 0;
+  flex: 1;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.company-card__name {
+  overflow: hidden;
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.company-card__meta,
+.company-card__address {
+  color: #828c96;
+  font-size: 11px;
+}
+
+.company-card__arrow {
+  align-self: center;
+  color: #aeb6bd;
+  font-size: 22px;
+  line-height: 1;
+  transition: color 150ms ease;
+}
+
+.company-card--active .company-card__arrow {
+  color: var(--accent);
+}
+
+.company-card__actions,
+.company-info__actions {
+  display: flex;
+  gap: 7px;
+}
+
+.company-card__actions {
+  padding-left: 23px;
+}
+
+.company-link {
+  display: inline-flex;
+  min-height: 30px;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 9px;
+  border: 0;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  transition:
+    filter 150ms ease,
+    transform 150ms ease;
+}
+
+.company-link--website {
+  background: #29995c;
+}
+
+.company-link--career {
+  background: #3478cc;
+}
+
+.company-link:hover:not(:disabled) {
+  filter: brightness(1.12);
+  transform: translateY(-1px);
+}
+
+.company-link:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.company-link:disabled {
+  background: #eceff1;
+  color: #9aa3aa;
+  cursor: not-allowed;
+}
+
+.map-area {
+  position: relative;
+  min-width: 0;
+  flex: 1;
+  background: #e8ebea;
+}
+
+.map-container {
+  width: 100%;
+  height: 100%;
+}
+
+.map-caption {
+  position: absolute;
+  right: 24px;
+  bottom: 22px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border: 1px solid rgb(255 255 255 / 75%);
+  border-radius: 7px;
+  background: rgb(255 255 255 / 92%);
+  box-shadow: 0 3px 14px rgb(33 46 58 / 12%);
+  color: #47525d;
+  font-size: 12px;
+  font-weight: 600;
+  pointer-events: none;
+}
+
+.map-caption__dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.company-info {
+  min-width: 205px;
+  padding: 4px 2px 2px;
+  color: #26313b;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.company-info h3 {
+  margin: 0 0 12px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.company-info p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin: 8px 0 0;
+  color: #59646e;
+  font-size: 12px;
+}
+
+.company-info p span {
+  color: #929ba3;
+}
+
+.company-info a {
+  color: #df563f;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.company-info a:hover {
+  text-decoration: underline;
+}
+
+.company-info__actions {
+  margin-top: 12px;
+}
+
+@media (max-width: 640px) {
+  .company-panel {
+    flex-basis: 240px;
+  }
+
+  .panel-header {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .company-card {
+    padding-right: 9px;
+    padding-left: 10px;
+  }
+
+  .company-card__main {
+    gap: 10px;
+  }
+}
